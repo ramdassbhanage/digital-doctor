@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const apiUrl = "https://digitaldoctor.stackroute.io/userservice";
+const apiUrl = "http://35.91.219.190:8080/userservice";
 class ProfileDetailsService {
   // get the profile details for doctor
   doctorProfile() {
